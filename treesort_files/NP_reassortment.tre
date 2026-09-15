@@ -1,0 +1,33 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+        'A/yellow-billed_pintail/Chile/1/2012/2012-07-26|EPI_ISL_224994|'
+        'A/yellow-billed_pintail/Chile/C26936/2017/2017-06-07|EPI_ISL_327591|'
+        'A/yellow-billed_teal/Chile/C4126/2015/2015-10-12|EPI_ISL_257111|'
+        'A/mallard_duck/Chile/C4079/2015/2015-10-12|EPI_ISL_257110|'
+        'A/red_shoveler/Argentina/CIP112-3106/2017/2017-06-23|EPI_ISL_19703767|'
+        'A/yellow-billed_teal/Argentina/CIP112-3039/2017/2017-06-22|EPI_ISL_19703752|'
+        'A/yellow-billed_pintail/Argentina/CIP112-4062/2019/2019-06-25|EPI_ISL_19703749|'
+        'A/white-cheeked_pintail/Argentina/CIP112-4218/2019/2019-07-25|EPI_ISL_19703763|'
+        'A/Calidris_fuscicollis/Brazil/PNLP_222/2024/2024-04-07|EPI_ISL_20100728|'
+        'A/Semipalmated_Sandpiper/Delaware/564/2024/2024-05-20|EPI_ISL_19679287|'
+        'A/white_rumped_sandpiper/Brazil/PNLP_SM10/2023/2023-01-06|EPI_ISL_17088885|'
+        'A/Semipalmated_sandpiper/Delaware/1126/2022/2022-05-31|EPI_ISL_16920566|'
+        'A/rosy-billed_pochard/Argentina/CIP112-4123/2019/2019-06-26|EPI_ISL_19703788|'
+        'A/yellow-billed_pintail/Chile/C13198/2016/2016-06-23|EPI_ISL_326969|'
+        'A/kelp_gull/Chile/C34600/2017/2017-12-05|EPI_ISL_19167966|'
+        'A/Teal_Sp./BC/AIVPHL-3709/2025/2025-08-22|EPI_ISL_20212943|'
+        'A/Ruddy_Turnstone/Delaware/1162/2025/2025-05-29|EPI_ISL_20327371|'
+        'A/Ruddy_Turnstone/Delaware_Bay/448/2020/2020-05-29|EPI_ISL_4056934|'
+        'A/Ruddy_Turnstone/Delaware/128/2021/2021-06-01|EPI_ISL_14777712|'
+        'A/kelp_gull/Chile/C27585/2017/2017-06-14|EPI_ISL_327608|'
+        'A/red-winged_tinamou/Argentina/MP1/2008/2008-04-01|EPI_ISL_63144|'
+  ;
+END;
+
+BEGIN TREES;
+    TREE 1 = [&indexed=True](('A/yellow-billed_pintail/Chile/1/2012/2012-07-26|EPI_ISL_224994|':0.0118598475[&is_reassorted=0],(((('A/yellow-billed_teal/Argentina/CIP112-3039/2017/2017-06-22|EPI_ISL_19703752|':0.0084549952[&rea="NS(241)",is_reassorted=1],('A/yellow-billed_pintail/Argentina/CIP112-4062/2019/2019-06-25|EPI_ISL_19703749|':0.0136821843[&rea="HA(781)",is_reassorted=1],'A/white-cheeked_pintail/Argentina/CIP112-4218/2019/2019-07-25|EPI_ISL_19703763|':0.0151990665[&rea="HA(789)",is_reassorted=1])'TS_NODE_0':0.0021040953[&rea="NA(547),PA(142)",is_reassorted=1])'TS_NODE_1':0.0095074966[&is_reassorted=0],((((('A/Calidris_fuscicollis/Brazil/PNLP_222/2024/2024-04-07|EPI_ISL_20100728|':0.004257603[&rea="HA(648),NA(672),PB1(15)",is_reassorted=1],'A/Semipalmated_Sandpiper/Delaware/564/2024/2024-05-20|EPI_ISL_19679287|':0.0060045204[&rea="HA(679),NS(16),PA(273),PB2(241)",is_reassorted=1])'TS_NODE_2':0.0067051664[&is_reassorted=0],'A/white_rumped_sandpiper/Brazil/PNLP_SM10/2023/2023-01-06|EPI_ISL_17088885|':0.0097302898[&is_reassorted=0])'TS_NODE_3':0.0083697376[&is_reassorted=0],'A/Semipalmated_sandpiper/Delaware/1126/2022/2022-05-31|EPI_ISL_16920566|':0.0111268015[&is_reassorted=0])'TS_NODE_4':0.0360632229[&rea="HA(636),NA(677)",is_reassorted=1],'A/rosy-billed_pochard/Argentina/CIP112-4123/2019/2019-06-26|EPI_ISL_19703788|':0.0095781952[&rea="HA(609),NA(599),NS(224)",is_reassorted=1])'TS_NODE_5':0.0049149285[&is_reassorted=0],'A/yellow-billed_pintail/Chile/C13198/2016/2016-06-23|EPI_ISL_326969|':0.0131045056[&is_reassorted=0])'TS_NODE_6':0.0022271453[&is_reassorted=0])'TS_NODE_7':0.0397677703[&is_reassorted=0],(('A/kelp_gull/Chile/C34600/2017/2017-12-05|EPI_ISL_19167966|':0.0520106945[&rea="NA(658)",is_reassorted=1],('A/Teal_Sp./BC/AIVPHL-3709/2025/2025-08-22|EPI_ISL_20212943|':0.0078026689[&rea="HA(606),NA(627)",is_reassorted=1],(('A/Ruddy_Turnstone/Delaware/1162/2025/2025-05-29|EPI_ISL_20327371|':0.016928377[&rea="HA(424),NA(641)",is_reassorted=1],'A/Ruddy_Turnstone/Delaware_Bay/448/2020/2020-05-29|EPI_ISL_4056934|':0.0104463171[&rea="HA(154)",is_reassorted=1])'TS_NODE_8':2.36091e-05[&is_reassorted=0],'A/Ruddy_Turnstone/Delaware/128/2021/2021-06-01|EPI_ISL_14777712|':0.0080519325[&rea="HA(600),NA(662)",is_reassorted=1])'TS_NODE_9':0.0037216049[&is_reassorted=0])'TS_NODE_10':0.0383061371[&is_reassorted=0])'TS_NODE_11':0.0126354874[&is_reassorted=0],'A/kelp_gull/Chile/C27585/2017/2017-06-14|EPI_ISL_327608|':0.0733444755[&is_reassorted=0])'TS_NODE_12':0.18969226[&is_reassorted=0])'TS_NODE_13':0.0289733336[&rea="NS(222)",is_reassorted=1],'A/red-winged_tinamou/Argentina/MP1/2008/2008-04-01|EPI_ISL_63144|':0.0163234612[&is_reassorted=0])'TS_NODE_14':0.0081029134[&is_reassorted=0])'TS_NODE_15':0[&rea="PA(0),PB1(0)",is_reassorted=1],(('A/yellow-billed_pintail/Chile/C26936/2017/2017-06-07|EPI_ISL_327591|':0.0053178896[&rea="NA(689)",is_reassorted=1],('A/yellow-billed_teal/Chile/C4126/2015/2015-10-12|EPI_ISL_257111|':0.0006663793[&rea="PA(117),PB1(25)",is_reassorted=1],'A/mallard_duck/Chile/C4079/2015/2015-10-12|EPI_ISL_257110|':1.0003e-06[&is_reassorted=0])'TS_NODE_16':0.0042886194[&is_reassorted=0])'TS_NODE_17':0.0024542904[&is_reassorted=0],'A/red_shoveler/Argentina/CIP112-3106/2017/2017-06-23|EPI_ISL_19703767|':0.0155175482[&is_reassorted=0])'TS_NODE_18':0.0067289988[&rea="PA(82),PB1(87)",is_reassorted=1])'TS_NODE_19'[&is_reassorted=0];
+END;
+
