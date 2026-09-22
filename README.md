@@ -22,9 +22,9 @@ Raw NGS sequencing reads (FASTQ) referenced in the manuscript are also hosted in
 
 Related data (Zenodo)
 
-BEAST MCMC log files (.log) and posterior tree files (.trees) for all analyses are archived on Zenodo:
+BEAST MCMC log files (.log) and posterior tree files (.trees) for all analyses are archived on Open Science Framwework (OSF) platform:
 
-DOI: 10.5281/zenodo.22883720
+https://doi.org/10.17605/OSF.IO/HV68C
 
 Contact
 
